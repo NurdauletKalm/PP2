@@ -49,7 +49,6 @@ def delete_file(file_path):
     else:
         print("File cannot be deleted or does not exist")
 
-# Example usage (uncomment to test)
 with open("example.txt", "a") as f:
     f.write("""Hello, this is a test file.
 It contains multiple lines.
